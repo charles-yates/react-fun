@@ -1,0 +1,56 @@
+{
+  "name": "react-fun",
+  "version": "1.0.0",
+  "description": "Simple React app to consume my test API.",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.1",
+    "redux": "^4.0.5",
+    "redux-bees": "^0.1.11"
+  },
+  "scripts": {
+    "start": "PORT=5000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint \"src/**/*.js\" --color",
+    "lint:fix": "eslint \"src/**/*.js\" --fix --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charles-yates/react-fun.git"
+  },
+  "keywords": [
+    "node",
+    "react"
+  ],
+  "author": "Charles Yates <charlesmyates@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charles-yates/react-fun/issues"
+  },
+  "homepage": "https://github.com/charles-yates/react-fun#readme",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
